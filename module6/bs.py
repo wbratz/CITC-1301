@@ -1,11 +1,5 @@
-numbers = 7
+numbers = []
 
-
-for number in range(1, numbers+1):
+for number in numbers:
     print(number)
 
-number = 7
-other_number = 1
-while other_number <= number:
-    print(other_number)
-    other_number += 1
