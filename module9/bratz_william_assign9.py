@@ -1,5 +1,3 @@
-
-
 def main():
 
     user_selection = 0
