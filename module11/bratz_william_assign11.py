@@ -3,7 +3,7 @@ valid_numbers = []
 
 def get_valid_numbers(numbers):
     for number in numbers:
-        if number > 0 and number <= 100:
+        if number >= 0 and number <= 100:
             valid_numbers.append(number)
 
 
