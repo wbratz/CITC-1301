@@ -19,6 +19,8 @@ for number in number_list:
     else:
         bad_numbers.append(number.rstrip())
 
+file_name.close()
+
 print("Target numbers: ")
 print(target_numbers)
 print("Bad numbers: ")

@@ -2,12 +2,12 @@
 # volitile memory
 # persistant storage
 
-# numbers = open('input.txt', 'r')
+numbers = open('input.txt', 'r')
 
-# lines = numbers.readlines();
+lines = numbers.readlines();
 
-# for line in lines:
-#     print(line.rstrip())
+for line in numbers.readlines():
+    print(line.rstrip())
 
 # numbers.close()
 
@@ -37,9 +37,9 @@
 # movies.close()
 # print("Finished Writing to file")
 
-numbers = open("numbers.txt", "w")
+# numbers = open("numbers.txt", "w")
 
-for number in range(1, 101):
-    numbers.write(str(number) + "\n")
+# for number in range(1, 101):
+#     numbers.write(str(number) + "\n")
 
-numbers.close()
+# numbers.close()
